@@ -1,14 +1,13 @@
 import { MapPin, Star } from "lucide-react";
+import Spline from "@splinetool/react-spline";
 
 export default function Hero() {
   return (
     <section id="home" className="relative">
       <div className="relative h-[70vh] md:h-[80vh] w-full overflow-hidden rounded-b-3xl">
-        <img
-          src="https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=2000&auto=format&fit=crop"
-          alt="Himalayan range in Nepal"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+        <div className="absolute inset-0">
+          <Spline scene="https://prod.spline.design/4cHQr84zOGAHOehh/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent pointer-events-none" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
           <div className="text-white max-w-2xl">

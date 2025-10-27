@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Hero from "./components/Hero";
 import PackagesPreview from "./components/PackagesPreview";
 import Footer from "./components/Footer";
@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans">
-      <Navbar />
+      <Header />
       <main>
         <Hero />
         <section id="explore" className="py-14">
